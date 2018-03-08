@@ -33,7 +33,7 @@ end
 
 def self.genre_count
   genre_count = {}
-  @@genre.each do |genre|
+  @@genres.each do |genre|
     puts "#{genre}: #{count}"
   end
 
