@@ -10,7 +10,7 @@ class Song
   attr_accessor :name, :artist, :genre
 
   def initialize(name, artist, genre)
-binding.pry
+
     @name=name
     @artist=artist
     @genre=genre
@@ -22,7 +22,7 @@ binding.pry
 
 def self.count
   @@count
-
+binding.pry
 end
 
 def self.artists
