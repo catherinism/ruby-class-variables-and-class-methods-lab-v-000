@@ -37,7 +37,7 @@ end
 
 def genre_count
   @@genre_count.each do |genre, count|
-    binding.pry
+    
     puts "#{genre}: #{count}"
 
   end
