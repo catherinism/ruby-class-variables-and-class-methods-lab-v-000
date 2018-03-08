@@ -33,11 +33,5 @@ def self.genres
 
 end
 
-def genre_count
-  genre_count.each do |genre, count|
-    puts "#{genre}=>#{count}"
-  end
-
-end
 
 end
